@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: row;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-heading {
+  font-family: 'roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+.home-mobile-img {
+  display: none;
+  height: 100px;
+  width: 100px;
+}
+.home-description {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #0967d2;
+}
+.shop-now-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.home-desktop-img {
+  height: 300px;
+  width: 350px;
+}
+
+@media screen and (max-width: 575px) {
+  .home-desktop-img {
+    display: none;
+  }
+  .home-mobile-img {
+    display: flex;
+  }
+}

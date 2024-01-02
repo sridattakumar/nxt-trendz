@@ -1,0 +1,52 @@
+/* Write your CSS code here */
+.login-form-container {
+  display: flex;
+  padding: 100px;
+  width: 100%;
+}
+.login-website-logo-mobile-image {
+  height: 400px;
+  width: 500px;
+  margin: 50px;
+}
+.seperate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.login-image {
+  display: none;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.login-website-logo-desktop-image {
+  height: 100px;
+  width: 100px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'roboto';
+}
+.input-label {
+  color: #475569;
+  font-size: 12px;
+}
+.username-input-filed {
+  background-color: #d7dfe9;
+  color: #64748b;
+  font-size: 12px;
+}
+.password-input-filed {
+  background-color: #d7dfe9;
+  color: #64748b;
+  font-size: 12px;
+}
+.error{
+  color: red;
+}
